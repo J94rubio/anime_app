@@ -29,7 +29,8 @@ export interface AnimeDetail {
   extra_data?: string[];
 }
 
-const API_BASE_URL = "http://127.0.0.1:5000";
+// const API_BASE_URL = "http://127.0.0.1:5000";
+const API_BASE_URL = "https://anime-api-3upj.onrender.com";
 
 export async function searchAnime(query: string): Promise<AnimeDetail[]> {
   try {
