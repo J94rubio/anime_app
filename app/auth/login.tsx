@@ -174,7 +174,7 @@ export default function LoginScreen() {
         {/* Footer */}
         <View style={styles.footer}>
           <View style={styles.footerDot} />
-          <Text style={styles.footerText}>Anime App · 2025</Text>
+          <Text style={styles.footerText}>Anime App · 2026</Text>
           <View style={styles.footerDot} />
         </View>
       </ScrollView>
